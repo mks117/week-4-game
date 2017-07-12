@@ -33,5 +33,9 @@ body {
 	width: 100%;
 }
 
+h3 {
+	opacity: 0;
+}
+
 .panel {
 }
