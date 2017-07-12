@@ -21,27 +21,27 @@
 		<!-- Header Row -->
 		<div class="row">
 			<div class="col-xs-12">
-				<h1>Crystal Collector</h1>
+				<h1 id="game-name">Crystal Collector</h1>
 			</div>
 		</div>
 
 		<!-- Match Score and Win/Loss Row -->
 		<div class="row">
-			<div class="col-xs-12">
-				<div class="panel panel-default">
-					<div class="panel-body">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="col-xs-12">
 						<div class="col-xs-6">
-							<label>Score to Match:
-								<span id="spanMatchScore">120</span>
+							<label id="lbl-match-score">Score to Match:
+								<span id="match-score">120</span>
 							</label>
 						</div>
 						<div class="col-xs-6">
-							<label>Wins: 
-								<span id="spanWins">0</span>
+							<label id=lbl-player-wins>Wins: 
+								<span id="player-wins">0</span>
 							</label>
 							<br>
-							<label>Losses:
-								<span id="spanLosses">0</span>
+							<label id="lbl-player-losses">Losses:
+								<span id="player-losses">0</span>
 							</label>
 						</div>
 					</div>
@@ -51,13 +51,26 @@
 
 		<!-- Main Gameplay Area Row -->
 		<div class="row">
-			<div class="col-xs-12">
-				<div class="panel panel-default">
-					<div class="panel-body">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="col-xs-3" style="text-align: center">
 						<img class="gemImage" id="gem00" src="assets/images/crystal_01.jpg">
+						<h3>12</h3>
+					</div>
+					<div class="col-xs-3" style="text-align: center">
 						<img class="gemImage" id="gem01" src="assets/images/crystal_02.jpg">
+						<h3>12</h3>
+					</div>
+					<div class="col-xs-3" style="text-align: center">
 						<img class="gemImage" id="gem02" src="assets/images/crystal_03.jpg">
+						<h3>12</h3>
+					</div>
+					<div class="col-xs-3" style="text-align: center">
 						<img class="gemImage" id="gem03" src="assets/images/crystal_04.jpg">
+						<h3>12</h3>
+					</div>
+					<div class="col-xs-12">
+						<h3 id="total">Your Total: <span id="player-score">120</span></h3>
 					</div>
 				</div>
 			</div>

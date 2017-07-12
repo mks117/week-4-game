@@ -3,10 +3,35 @@ body {
 }
 
 /* IDs */
+#game-name {
+	text-align: center;
+}
 
+#lbl-match-score{
+	text-align: center;
+	font-size: 24px;
+}
+
+#lbl-player-wins{
+	text-align: center;
+	font-size: 24px;
+}
+
+#lbl-player-losses{
+	text-align: center;
+	font-size: 24px;
+}
+
+#total {
+	text-align: center;
+	font-size: 24px;
+}
 
 /* CLASSES */
 .gemImage {
-	height: 23%;
-	width: 23%;
+	height: 100%;
+	width: 100%;
+}
+
+.panel {
 }
